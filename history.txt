@@ -1,0 +1,114 @@
+    1  ssh-keygen -t rsa
+    2  ls
+    3  cat /home/ec2-user/.ssh/id_rsa.pub
+    4  git clone https://github.com/Rob-Bot-Bob/dockerproj.git
+    5  cd dockerproj/
+    6  touch Makefile
+    7  touch requirements.txt
+    8  touch Dockerfile
+    9  touch app.py
+   10  chmod +x app.py
+   11  python app.py
+   12  pip install click
+   13  python app.py
+   14  python app.py --help
+   15  wget -0 /bin/hafolint https://github.com/hadolint/releases/download/v1.17.5/hadolint-Linux-x86_64 &&chmod +x /bin/hadolint
+   16  wget -0 /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.17.5/hadolint-Linux-x86_64 && chmod +x /bin/hadolint
+   17  wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.17.5/hadolint-Linux-x86_64 && chmod +x /bin/hadolint
+   18  sudo wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.17.5/hadolint-Linux-x86_64 && chmod +x /bin/hadolint
+   19  sudo chmod +x /bin/hadolint
+   20  make lint
+   21  python3 -m venv ~/.dockerproj
+   22  source ~/.dockerproj/bin/activate
+   23  make install
+   24  docker build --tag=app .
+   25  docker image ls
+   26  docker run -it app bash
+   27  exit
+   28  ls
+   29  cd dockerproj/
+   30  source ~/.dockerproj/bin/activate
+   31  mkdir .circleci
+   32  touch .circleci/config.yml 
+   33  ls
+   34  ls -la
+   35  curl -fLSs https://raw.githubusercontent.com/CircleCI-Public/circleci-cli/master/install.sh | bash
+   36  sudo curl -fLSs https://raw.githubusercontent.com/CircleCI-Public/circleci-cli/master/install.sh | bash
+   37  cd /temp
+   38  cd /tmp
+   39  wget https://github.com/CircleCI-Public/circleci-cli/releases/download/v0.1.15224/circleci-cli_0.1.15224_linux_amd64.tar.gz
+   40  tar zxvf circleci-cli_0.1.15224_linux_amd64.tar.gz 
+   41  cd circleci-cli_0.1.15224_linux_amd64/
+   42  ls
+   43  cd api/
+   44  ls
+   45  cd ..
+   46  ls
+   47  ./circleci
+   48  mv circleci ~/
+   49  cd
+   50  ls
+   51  mv circleci environment/
+   52  ls
+   53  cd environment/
+   54  ls
+   55  cd dockerproj/
+   56  pwd
+   57  cd ..
+   58  mv circleci dockerproj/
+   59  ls
+   60  cd dockerproj/
+   61  make lint
+   62  ./circleci local execute
+   63  ls
+   64  ls -la
+   65  cd .circleci/
+   66  ls
+   67  nano config.yml 
+   68  open config.yml 
+   69  nano config.yml 
+   70  cd ..
+   71  ./circleci local execute
+   72  ls
+   73  cd ./circleci
+   74  ls -la
+   75  cd .circleci/
+   76  ls
+   77  nano config.yml 
+   78  ls
+   79  cd ,,
+   80  cd ..
+   81  ls
+   82  ./circleci local execute
+   83  pwd
+   84  ./circleci local execute
+   85  ls
+   86  npm run start
+   87  ls
+   88  cd ..
+   89  ls
+   90  cd dockerproj/
+   91  ls
+   92  ls -la
+   93  cd .git/
+   94  ls
+   95  cd ..
+   96  git branch
+   97  mv circleci /tmp
+   98  ls
+   99  git status
+  100  git add .circleci/
+  101  git add * 
+  102  git commit -m "adding in docker project "
+  103  git push
+  104  mv circleci /home/ec2-user/environment/dockerproj/
+  105  cd /tmp
+  106  ls
+  107  mv circleci /home/ec2-user/environment/dockerproj/
+  108  cd /home/ec2-user/environment/dockerproj/
+  109  ./circleci local execute
+  110  history
+  111  touch history.txt
+  112  cat history > history.txt
+  113  ls
+  114  history > history.txt
